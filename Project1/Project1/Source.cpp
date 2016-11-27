@@ -3,5 +3,6 @@ using namespace std;
 
 int main()
 {
-	cout << "Hi" << endl;
+	cout << "Welcome to the game UNO." << endl;
+	return 0;
 }
