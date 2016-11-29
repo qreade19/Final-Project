@@ -1,4 +1,6 @@
 #include <iostream>
+#include "Cards.h"
+#include "Deck.h"
 using namespace std;
 
 int main()
