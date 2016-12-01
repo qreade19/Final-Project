@@ -8,18 +8,18 @@ using namespace std;
 
 class Cards {
 private:
-	string CardNames;
-	string Color;
-	int CardNumber;
+	string cardNames;
+	string color[5];
+	int cardNumber;
 	string SpecialCard;
 	int TotalNumberOfCards;
 
 public:
 	Cards();
 	int getTotalNumberOfCards();
-	int setTotalNumberOfCards();
-	string getColor();
-	string setColor();
+	void setTotalNumberOfCards(int numCards);
+	string getColor(int index);
+	void setColor(string newColor, int index);
 	string getSpecialCards();
 	string setSpecialCards();
 

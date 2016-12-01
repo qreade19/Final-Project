@@ -18,6 +18,15 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Cards.cpp" />
+    <ClCompile Include="Deck.cpp" />
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cards.h" />
+    <ClInclude Include="Deck.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{4EF33ACB-A5E9-4AAB-8209-CBF2A92C7F86}</ProjectGuid>
     <RootNamespace>Project2</RootNamespace>
@@ -109,13 +118,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Project1\Cards.h" />
-    <ClInclude Include="..\..\Project1\Deck.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Project1\Source.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

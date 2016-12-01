@@ -1,30 +1,46 @@
 #include <iostream>
 #include "Cards.h"
 using namespace std;
-Cards::Cards() {
-
+Cards::Cards()
+{
+	TotalNumberOfCards = 108;
+	color[0] = "Red";
+	color[1] = "Blue";
+	color[2] = "Yellow";
+	color[3] = "Green";
+	color[4] = "Black";
 }
+
 //returns the total number of cards
-int Cards::getTotalNumberOfCards() {
+int Cards::getTotalNumberOfCards() 
+{
 	return TotalNumberOfCards;
 }
-int Cards::setTotalNumberOfCards() {
+
+void Cards::setTotalNumberOfCards(int numCards) 
+{
 	//actual total number of cards in the deck
-	TotalNumberOfCards = 108;
-	return NULL;
+	TotalNumberOfCards = numCards;
 }
+
 //returns the color of the cards
-string Cards::getColor() {
-	return Color;
+string Cards::getColor(int index) 
+{
+	return color[index];
 }
-string Cards::setColor() {
+
+void Cards::setColor(string newColor, int index)
+{
 	//array of the four main colors and the wild black card
-	string MainColorOfCards[5] = { "Black", "Red", "Blue", "Yellow", "Green" };
-	return NULL;
+	color[index] = newColor;
 }
-string Cards::getSpecialCards() {
+
+string Cards::getSpecialCards() 
+{
 	return SpecialCard;
 }
-string Cards::setSpecialCards() {
+
+string Cards::setSpecialCards() 
+{
 	return NULL;
 }
