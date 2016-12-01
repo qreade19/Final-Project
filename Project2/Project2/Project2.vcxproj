@@ -22,10 +22,14 @@
     <ClCompile Include="Cards.cpp" />
     <ClCompile Include="Deck.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Score.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cards.h" />
     <ClInclude Include="Deck.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Score.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{4EF33ACB-A5E9-4AAB-8209-CBF2A92C7F86}</ProjectGuid>
