@@ -9,3 +9,9 @@ void Deck::ShuffleDeck()
 		int temp;
 	}*/
 }
+void Deck::DrawPile() {
+
+}
+void Deck::DiscardPile() {
+
+}

@@ -9,6 +9,8 @@ private:
 	
 public:
 	void ShuffleDeck();
+	void DrawPile();
+	void DiscardPile();
 };
 #endif // !1
 #pragma once
