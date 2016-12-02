@@ -6,9 +6,9 @@
 #include <vector>
 class Deck : public Cards {
 private:
-	
+	vector<Cards> cards;
 public:
-	void ShuffleDeck();
+	void ShuffleDeck(int n);
 	void DrawPile();
 	void DiscardPile();
 };

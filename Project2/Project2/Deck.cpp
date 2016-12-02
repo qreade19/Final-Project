@@ -2,8 +2,9 @@
 #include "Deck.h"
 #include "Cards.h"
 using namespace std;
-void Deck::ShuffleDeck() 
-{
+void Deck::ShuffleDeck(int n) 
+{ 
+
 	//shuffle the deck of cards
 	/*for (int i; i < getTotalNumberOfCards(); i++) {
 		int temp;
